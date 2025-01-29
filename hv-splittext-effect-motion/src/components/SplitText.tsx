@@ -41,7 +41,6 @@ const SplitText = ({ children, href }: SplitTextProps) => {
       className="relative block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl"
     >
       <div className="flex gap-2 items-center">
-        [
         <div className="relative">
           <motion.div variants={variants} transition={variants.transition}>
             {children}
@@ -54,7 +53,6 @@ const SplitText = ({ children, href }: SplitTextProps) => {
             {children}
           </motion.div>
         </div>
-        ]
       </div>
     </motion.a>
   );

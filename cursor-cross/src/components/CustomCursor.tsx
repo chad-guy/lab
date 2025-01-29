@@ -43,7 +43,7 @@ const CustomCursor = () => {
       <CrossLine isVertical={true} />
       <CrossLine isVertical={false} />
       <motion.div
-        className="fixed pointer-events-none bg-[#0000FF] h-14 w-14 rounded-full z-50"
+        className="fixed pointer-events-none bg-[#4c4c4c] h-14 w-14 rounded-full z-50"
         style={{
           left: cursorXSpring,
           top: cursorYSpring,

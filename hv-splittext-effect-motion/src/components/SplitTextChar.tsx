@@ -60,7 +60,6 @@ const SplitTextChar = ({ label, href }: SplitTextCharProps) => {
       className="relative block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl"
     >
       <div className="flex gap-2 items-center">
-        [
         <div className="relative">
           {/* ORIGINAL TEXT */}
           <div>
@@ -95,7 +94,6 @@ const SplitTextChar = ({ label, href }: SplitTextCharProps) => {
             ))}
           </div>
         </div>
-        ]
       </div>
     </motion.a>
   );
